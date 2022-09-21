@@ -41,4 +41,8 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 
-import snowflake.conector
+import streamlit
+import pandas
+import requests
+import snowflake.connector
+from urllib.error import URLError
