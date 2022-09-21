@@ -41,4 +41,4 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 
-import snowflake-conector
+import snowflake.conector
